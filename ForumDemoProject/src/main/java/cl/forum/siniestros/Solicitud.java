@@ -15,33 +15,36 @@ public class Solicitud implements java.io.Serializable
    @javax.persistence.SequenceGenerator(sequenceName = "SOLICITUD_ID_SEQ", name = "SOLICITUD_ID_GENERATOR")
    private java.lang.Long id;
 
-   @org.kie.api.definition.type.Label(value = "Rut Cliente")
+   @org.kie.api.definition.type.Label("Rut Cliente")
    private java.lang.String rutCliente;
 
-   @org.kie.api.definition.type.Label(value = "Nombre Cliente")
+   @org.kie.api.definition.type.Label("Nombre Cliente")
    private java.lang.String nombreCliente;
 
    @javax.persistence.ElementCollection(fetch = javax.persistence.FetchType.EAGER)
-   @org.kie.api.definition.type.Label(value = "Contratos")
+   @org.kie.api.definition.type.Label("Contratos")
    private java.util.List<java.lang.String> contratos;
 
-   @org.kie.api.definition.type.Label(value = "Patente")
+   @org.kie.api.definition.type.Label("Patente")
    private java.lang.String patente;
 
-   @org.kie.api.definition.type.Label(value = "Estado")
+   @org.kie.api.definition.type.Label("Estado")
    private java.lang.String estadoPoliza;
 
-   @org.kie.api.definition.type.Label(value = "Marca")
+   @org.kie.api.definition.type.Label("Marca")
    private java.lang.String marca;
 
-   @org.kie.api.definition.type.Label(value = "Modelo")
+   @org.kie.api.definition.type.Label("Modelo")
    private java.lang.String modelo;
 
-   @org.kie.api.definition.type.Label(value = "Chasis")
+   @org.kie.api.definition.type.Label("Chasis")
    private java.lang.String chasis;
 
-   @org.kie.api.definition.type.Label(value = "Contrato")
+   @org.kie.api.definition.type.Label("Contrato")
    private java.lang.String contrato;
+
+   @org.kie.api.definition.type.Label(value = "Aprobacion")
+   private java.lang.Boolean aprobacion;
 
    public Solicitud()
    {
@@ -147,12 +150,22 @@ public class Solicitud implements java.io.Serializable
       this.contrato = contrato;
    }
 
+   public java.lang.Boolean getAprobacion()
+   {
+      return this.aprobacion;
+   }
+
+   public void setAprobacion(java.lang.Boolean aprobacion)
+   {
+      this.aprobacion = aprobacion;
+   }
+
    public Solicitud(java.lang.Long id, java.lang.String rutCliente,
          java.lang.String nombreCliente,
-         java.util.List<java.lang.String> contratos,
-         java.lang.String patente, java.lang.String estadoPoliza,
-         java.lang.String marca, java.lang.String modelo,
-         java.lang.String chasis, java.lang.String contrato)
+         java.util.List<java.lang.String> contratos, java.lang.String patente,
+         java.lang.String estadoPoliza, java.lang.String marca,
+         java.lang.String modelo, java.lang.String chasis,
+         java.lang.String contrato, java.lang.Boolean aprobacion)
    {
       this.id = id;
       this.rutCliente = rutCliente;
@@ -164,6 +177,7 @@ public class Solicitud implements java.io.Serializable
       this.modelo = modelo;
       this.chasis = chasis;
       this.contrato = contrato;
+      this.aprobacion = aprobacion;
    }
 
 }
