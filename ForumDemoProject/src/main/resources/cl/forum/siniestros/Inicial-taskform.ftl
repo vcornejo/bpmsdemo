@@ -218,26 +218,26 @@
 	    <input type="text" name="rutCliente" value="${solicitud.rutCliente}"/>
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
-            	<label for="name">Owners</label>
-            	<div class="div_checkbox">
+            	<label for="name">Nombre Cliente</label>
+            	<div class="div_texbox">
             	
             	</div>
-            	<label for="name">Cliente</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Rut</label>
-            	<div class="div_checkbox">HR</div>
+            	<label for="name">Rut Cliente</label>
+            	<div class="div_texbox"></div>
+            	<label for="name">Solicitud </label>
+            	<div class="div_texbox"></div>
 
             <div class="clear"></div>
           </fieldset>
 
 	<fieldset>
-            <legend>Task Inputs</legend>
+            <legend>Contratos</legend>
             <div class="clear"></div>
           </fieldset>
 
           <fieldset>
-            <legend>Task Outputs</legend>
-                            		<label for="name">person_out</label>
+            <legend>Datos del contrato</legend>
+                            		<label for="name">patente</label>
                             		<div class="div_texbox">
                               		<input name="person_out" type="text" class="textbox" id="person_out" value="" />
                             		</div>
