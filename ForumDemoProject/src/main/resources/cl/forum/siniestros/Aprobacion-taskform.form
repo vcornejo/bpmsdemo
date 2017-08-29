@@ -3,5 +3,13 @@
 <property name="name" value="Aprobacion-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="aprobacion" type="CheckBox" id="960400248">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprobacion (aprobacion)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="aprobacion"/>
+<property name="outputBinding" value="aprobacion"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
 <dataHolder inputId="aprobacion" name="#E9E371" type="basicType" outId="aprobacion" value="java.lang.Boolean" id="aprobacion"/>
 </form>
