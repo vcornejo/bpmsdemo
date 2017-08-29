@@ -218,26 +218,16 @@
 	 
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
-            	<label for="name">nombrecliente</label>
-            	<div class="div_texbox">
-            		<input id="nombrecliente"/>
-            	</div>
-            	<label for="name">rutcliente</label>
-            	<div class="div_texbox">
-							<input id="rutcliente"/>            	
-            	</div>
-            	<label for="name">solicitud </label>
-            	<div class="div_texbox">
-						<input id="solicitud"/>            	
-            	</div>
-
+            	  Nombre: <input type="text"><br>
+    				  Rut: <input type="text"><br>
+    				  Solicitud: <input type="text">
             <div class="clear"></div>
       </fieldset>
 
 	<fieldset>
             <legend>Contratos</legend>
   
-  <select multiple="true" >
+  <select multiple="true" size="8" onclick="Alert('testSelection');">
 <option>123213</option>
 <option>1233333</option>  
 <option>1234355</option>
@@ -246,21 +236,13 @@
   </select>
   				          </fieldset>
 
-          <fieldset>
-            <legend>Datos del contrato</legend>
-           		<label for="name">patente</label>
-                            		<div class="div_texbox">
-                              		<input name="patente" type="text" class="textbox" id="patente" value="" />
-                                      
-                                  </div>
-
-					<label for="name">chasis</label>
-  <div class="div_texbox">
-                              		<input name="chasis" type="text" class="textbox" id="chasis" value="" />
-
-            </div>
-
-          </fieldset>
+         	<fieldset>
+            <legend>Informacion del Contrato</legend>
+            	  Patente: <input type="text"><br>
+    				  Chasis: <input type="text"><br>
+    				  Contrato: <input type="text">
+            <div class="clear"></div>
+      </fieldset>
 	</div>
 	<div id="footer">
 	</div>
