@@ -46,21 +46,21 @@
 	}
 
 	function taskFormValidator() {
-		var i=0;
+/*		var i=0;
 		var myInputs = new Array();
-					myInputs[i] = document.getElementById("solicitud");
+					myInputs[i] = document.getElementById("person_out");
 					i++;
 
 
 		var j=0;
 						if(notEmpty(myInputs[j]) && !isAlphanumeric(myInputs[j])) {
-							alert("Please enter valid solicitud");
+							alert("Please enter valid person_out");
 							myInputs[j].focus();
 							return false;
 						}
 			
 					j++;
-
+*/
 		return true;
 	}
 </script>
@@ -207,54 +207,44 @@
 		text-decoration: none;
 		text-transform:uppercase;
 		font-weight:bold;
-	}
+	}ns
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: siniestros.Inicial
+		Formulario: Solicitud
 	</div>
 	<div id="content">
-	    <input type="hidden" name="taskId" value="${task.id}"/>
+
+	 
 		<fieldset>
-            <legend>Task Info</legend>
-            	<label for="name">Owners</label>
-            	<div class="div_checkbox">
-											bpmsAdmin
-            	
-            	</div>
-            	<label for="name">Actor ID</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Group</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Skippable</label>
-            	<div class="div_checkbox">true</div>
-            	<label for="name">Priority</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Comment</label>
-            	<div class="div_checkbox"></div>
+            <legend>Informacion de la solicitud</legend>
+            	  Nombre: <input type="text" value="${solicitud}"><br>
+    				  Rut: <input type="text"><br>
+    				  Solicitud: <input type="text" value="${task.taskData.actualOwner.id}">
             <div class="clear"></div>
-          </fieldset>
+      </fieldset>
 
-		<fieldset>
-            <legend>Task Inputs</legend>
-                            		<label for="name">solicitud</label>
-                            		<div class="div_checkbox">
-                              		${solicitud}
-                            		</div>
+	<fieldset>
+            <legend>Contratos</legend>
+  
+  <select multiple="true" size="8" onclick="javascript:alert('testSelection');">
+<option>123213</option>
+<option>1233333</option>  
+<option>1234355</option>
+<option>1233444</option>
+<option>1277555</option>
+  </select>
+  				          </fieldset>
 
+         	<fieldset>
+            <legend>Informacion del Contrato</legend>
+            	  Patente: <input type="text"><br>
+    				  Chasis: <input type="text"><br>
+    				  Contrato: <input type="text">
             <div class="clear"></div>
-          </fieldset>
-
-          <fieldset>
-            <legend>Task Outputs</legend>
-                            		<label for="name">solicitud</label>
-                            		<div class="div_texbox">
-                              		<input name="solicitud" type="text" class="textbox" id="solicitud" value="${solicitud}" />
-                            		</div>
-              	
-
-          </fieldset>
+      </fieldset>
 	</div>
 	<div id="footer">
 	</div>
 </div>
+
