@@ -207,7 +207,7 @@
 		text-decoration: none;
 		text-transform:uppercase;
 		font-weight:bold;
-	}
+	}ns
 </style>
 <div id="container">
 	<div id="header">
@@ -218,7 +218,7 @@
 	 
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
-            	  Nombre: <input type="text" value="${solicitud.nombreCliente}"><br>
+            	  Nombre: <input type="text" value="${rut}"><br>
     				  Rut: <input type="text"><br>
     				  Solicitud: <input type="text">
             <div class="clear"></div>
