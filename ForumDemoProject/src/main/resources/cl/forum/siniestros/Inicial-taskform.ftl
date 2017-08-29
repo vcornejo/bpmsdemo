@@ -46,7 +46,7 @@
 	}
 
 	function taskFormValidator() {
-		var i=0;
+/*		var i=0;
 		var myInputs = new Array();
 					myInputs[i] = document.getElementById("person_out");
 					i++;
@@ -60,7 +60,7 @@
 						}
 			
 					j++;
-
+*/
 		return true;
 	}
 </script>
@@ -227,7 +227,7 @@
 	<fieldset>
             <legend>Contratos</legend>
   
-  <select multiple="true" size="8" onclick="Alert('testSelection');">
+  <select multiple="true" size="8" onclick="javascript:alert('testSelection');">
 <option>123213</option>
 <option>1233333</option>  
 <option>1234355</option>
