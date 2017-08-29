@@ -218,17 +218,21 @@
 	 
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
-            	<label for="name">Nombre Cliente</label>
+            	<label for="name">nombrecliente</label>
             	<div class="div_texbox">
-            	
+            		<input id="nombrecliente"/>
             	</div>
-            	<label for="name">Rut Cliente</label>
-            	<div class="div_texbox"></div>
-            	<label for="name">Solicitud </label>
-            	<div class="div_texbox"></div>
+            	<label for="name">rutcliente</label>
+            	<div class="div_texbox">
+							<input id="rutcliente"/>            	
+            	</div>
+            	<label for="name">solicitud </label>
+            	<div class="div_texbox">
+						<input id="solicitud"/>            	
+            	</div>
 
             <div class="clear"></div>
-          </fieldset>
+      </fieldset>
 
 	<fieldset>
             <legend>Contratos</legend>
@@ -237,19 +241,17 @@
 
           <fieldset>
             <legend>Datos del contrato</legend>
-                            		<label for="name">patente</label>
+           		<label for="name">patente</label>
                             		<div class="div_texbox">
                               		<input name="patente" type="text" class="textbox" id="patente" value="" />
                                       
-                                      </div>
+                                  </div>
 
 					<label for="name">chasis</label>
-                            		<div class="div_texbox">
+  <div class="div_texbox">
                               		<input name="chasis" type="text" class="textbox" id="chasis" value="" />
 
             </div>
-                            		
-              	
 
           </fieldset>
 	</div>
