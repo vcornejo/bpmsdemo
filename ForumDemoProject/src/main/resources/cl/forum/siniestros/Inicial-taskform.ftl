@@ -211,30 +211,26 @@
 </style>
 <div id="container">
 	<div id="header">
-		User Task Form: CollectPersonInfo.EnterInfo
+		Formulario: Solicitud
 	</div>
 	<div id="content">
-	    <input type="hidden" name="taskId" value="${task.id}"/>
+	    <input type="text" name="processId" value="${process.id}"/>
+	    <input type="text" name="rutCliente" value="${solicitud.rutCliente}"/>
 		<fieldset>
-            <legend>Task Info</legend>
+            <legend>Informacion de la solicitud</legend>
             	<label for="name">Owners</label>
             	<div class="div_checkbox">
             	
             	</div>
-            	<label for="name">Actor ID</label>
+            	<label for="name">Cliente</label>
             	<div class="div_checkbox"></div>
-            	<label for="name">Group</label>
+            	<label for="name">Rut</label>
             	<div class="div_checkbox">HR</div>
-            	<label for="name">Skippable</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Priority</label>
-            	<div class="div_checkbox"></div>
-            	<label for="name">Comment</label>
-            	<div class="div_checkbox"></div>
+
             <div class="clear"></div>
           </fieldset>
 
-		<fieldset>
+	<fieldset>
             <legend>Task Inputs</legend>
             <div class="clear"></div>
           </fieldset>
