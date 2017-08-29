@@ -239,7 +239,13 @@
             <legend>Datos del contrato</legend>
                             		<label for="name">patente</label>
                             		<div class="div_texbox">
-                              		<input name="person_out" type="text" class="textbox" id="person_out" value="" />
+                              		<input name="patente" type="text" class="textbox" id="patente" value="" />
+
+					<label for="name">chasis</label>
+                            		<div class="div_texbox">
+                              		<input name="chasis" type="text" class="textbox" id="chasis" value="" />
+
+
                             		</div>
               	
 
