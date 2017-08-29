@@ -218,7 +218,7 @@
 	 
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
-            	  Nombre: <input type="text"><br>
+            	  Nombre: <input type="text" value="${solicitud.nombreCliente}"><br>
     				  Rut: <input type="text"><br>
     				  Solicitud: <input type="text">
             <div class="clear"></div>
