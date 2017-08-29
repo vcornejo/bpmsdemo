@@ -215,7 +215,7 @@
 	</div>
 	<div id="content">
 
-	    <input type="text" name="rutCliente" value="${solicitud.rutCliente}"/>
+	 
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
             	<label for="name">Nombre Cliente</label>
