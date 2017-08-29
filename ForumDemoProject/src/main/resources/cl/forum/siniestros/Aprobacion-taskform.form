@@ -3,4 +3,5 @@
 <property name="name" value="Aprobacion-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="aprobacion" name="#E9E371" type="basicType" outId="aprobacion" value="java.lang.Boolean" id="aprobacion"/>
 </form>
