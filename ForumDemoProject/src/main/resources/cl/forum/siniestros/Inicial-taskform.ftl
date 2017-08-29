@@ -240,13 +240,15 @@
                             		<label for="name">patente</label>
                             		<div class="div_texbox">
                               		<input name="patente" type="text" class="textbox" id="patente" value="" />
+                                      
+                                      </div>
 
 					<label for="name">chasis</label>
                             		<div class="div_texbox">
                               		<input name="chasis" type="text" class="textbox" id="chasis" value="" />
 
-
-                            		</div>
+            </div>
+                            		
               	
 
           </fieldset>
@@ -254,3 +256,4 @@
 	<div id="footer">
 	</div>
 </div>
+
