@@ -236,8 +236,15 @@
 
 	<fieldset>
             <legend>Contratos</legend>
-            <div class="clear"></div>
-          </fieldset>
+  
+  <select multiple="true" >
+<option>123213</option>
+<option>1233333</option>  
+<option>1234355</option>
+<option>1233444</option>
+<option>1277555</option>
+  </select>
+  				          </fieldset>
 
           <fieldset>
             <legend>Datos del contrato</legend>
