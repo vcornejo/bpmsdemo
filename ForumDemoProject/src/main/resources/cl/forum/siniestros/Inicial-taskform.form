@@ -3,4 +3,93 @@
 <property name="name" value="Inicial-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="solicitud_aprobacion" type="CheckBox" id="1753270810">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprobacion (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/aprobacion"/>
+<property name="outputBinding" value="solicitud/aprobacion"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="solicitud_chasis" type="InputText" id="1777019360">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;chasis (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/chasis"/>
+<property name="outputBinding" value="solicitud/chasis"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="solicitud_contrato" type="InputText" id="1226714155">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;contrato (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/contrato"/>
+<property name="outputBinding" value="solicitud/contrato"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="solicitud_contratos" bag-type="java.lang.String" type="MultipleInput" id="1466670566">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;contratos (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/contratos"/>
+<property name="outputBinding" value="solicitud/contratos"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="4" name="solicitud_estadoPoliza" type="InputText" id="2114592216">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estadoPoliza (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/estadoPoliza"/>
+<property name="outputBinding" value="solicitud/estadoPoliza"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="solicitud_id" type="InputTextLong" id="1419511026">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/id"/>
+<property name="outputBinding" value="solicitud/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="6" name="solicitud_marca" type="InputText" id="784809521">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;marca (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/marca"/>
+<property name="outputBinding" value="solicitud/marca"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="solicitud_modelo" type="InputText" id="1812108235">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;modelo (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/modelo"/>
+<property name="outputBinding" value="solicitud/modelo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="solicitud_nombreCliente" type="InputText" id="1303335534">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombreCliente (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/nombreCliente"/>
+<property name="outputBinding" value="solicitud/nombreCliente"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="solicitud_patente" type="InputText" id="650505662">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patente (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/patente"/>
+<property name="outputBinding" value="solicitud/patente"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="solicitud_rutCliente" type="InputText" id="1869724947">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rutCliente (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/rutCliente"/>
+<property name="outputBinding" value="solicitud/rutCliente"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="solicitud" name="#E9E371" type="dataModelerEntry" outId="solicitud" value="cl.forum.siniestros.Solicitud" id="solicitud"/>
 </form>
