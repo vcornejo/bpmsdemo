@@ -218,7 +218,7 @@
 	 
 		<fieldset>
             <legend>Informacion de la solicitud</legend>
-            	  Nombre: <input type="text" value="${solicitud}"><br>
+            	  Nombre: <input type="text" value="${solicitud.rutCliente}"><br>
     				  Rut: <input type="text" value="${rut}"><br>
     				  Solicitud: <input type="text" value="${task.taskData.actualOwner.id}">
             <div class="clear"></div>
