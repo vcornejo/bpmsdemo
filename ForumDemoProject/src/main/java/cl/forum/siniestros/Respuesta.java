@@ -16,6 +16,9 @@ public class Respuesta implements java.io.Serializable
    @org.kie.api.definition.type.Label("Body")
    private Body body;
 
+   @org.kie.api.definition.type.Label(value = "Status")
+   private cl.forum.siniestros.Status status;
+
    public Respuesta()
    {
    }
@@ -40,10 +43,22 @@ public class Respuesta implements java.io.Serializable
       this.body = body;
    }
 
-   public Respuesta(java.lang.Boolean success, cl.forum.siniestros.Body body)
+   public cl.forum.siniestros.Status getStatus()
+   {
+      return this.status;
+   }
+
+   public void setStatus(cl.forum.siniestros.Status status)
+   {
+      this.status = status;
+   }
+
+   public Respuesta(java.lang.Boolean success, cl.forum.siniestros.Body body,
+         cl.forum.siniestros.Status status)
    {
       this.success = success;
       this.body = body;
+      this.status = status;
    }
 
 }
