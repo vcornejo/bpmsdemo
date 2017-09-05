@@ -10,23 +10,24 @@ public class Body implements java.io.Serializable
    static final long serialVersionUID = 1L;
 
    @org.kie.api.definition.type.Label(value = "Siniestros")
-   private java.util.List<java.lang.String> siniestros;
+   private java.util.List<cl.forum.siniestros.Siniestros> siniestros;
 
    public Body()
    {
    }
 
-   public java.util.List<java.lang.String> getSiniestros()
+   public java.util.List<cl.forum.siniestros.Siniestros> getSiniestros()
    {
       return this.siniestros;
    }
 
-   public void setSiniestros(java.util.List<java.lang.String> siniestros)
+   public void setSiniestros(
+         java.util.List<cl.forum.siniestros.Siniestros> siniestros)
    {
       this.siniestros = siniestros;
    }
 
-   public Body(java.util.List<java.lang.String> siniestros)
+   public Body(java.util.List<cl.forum.siniestros.Siniestros> siniestros)
    {
       this.siniestros = siniestros;
    }
