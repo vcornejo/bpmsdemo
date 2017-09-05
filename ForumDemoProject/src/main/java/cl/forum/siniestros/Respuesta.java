@@ -9,8 +9,11 @@ public class Respuesta implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "success")
+   @org.kie.api.definition.type.Label("success")
    private java.lang.Boolean success;
+
+   @org.kie.api.definition.type.Label(value = "Body")
+   private java.util.List<cl.forum.siniestros.Siniestros> body;
 
    public Respuesta()
    {
@@ -26,9 +29,21 @@ public class Respuesta implements java.io.Serializable
       this.success = success;
    }
 
-   public Respuesta(java.lang.Boolean success)
+   public java.util.List<cl.forum.siniestros.Siniestros> getBody()
+   {
+      return this.body;
+   }
+
+   public void setBody(java.util.List<cl.forum.siniestros.Siniestros> body)
+   {
+      this.body = body;
+   }
+
+   public Respuesta(java.lang.Boolean success,
+         java.util.List<cl.forum.siniestros.Siniestros> body)
    {
       this.success = success;
+      this.body = body;
    }
 
 }
