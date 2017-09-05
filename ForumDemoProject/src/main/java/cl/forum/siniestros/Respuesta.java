@@ -14,7 +14,7 @@ public class Respuesta implements java.io.Serializable
    private java.lang.Boolean success;
 
    @org.kie.api.definition.type.Label("Body")
-   private java.util.List<cl.forum.siniestros.Siniestros> body;
+   private Body body;
 
    public Respuesta()
    {
@@ -30,18 +30,17 @@ public class Respuesta implements java.io.Serializable
       this.success = success;
    }
 
-   public java.util.List<cl.forum.siniestros.Siniestros> getBody()
+   public cl.forum.siniestros.Body getBody()
    {
       return this.body;
    }
 
-   public void setBody(java.util.List<cl.forum.siniestros.Siniestros> body)
+   public void setBody(cl.forum.siniestros.Body body)
    {
       this.body = body;
    }
 
-   public Respuesta(java.lang.Boolean success,
-         java.util.List<cl.forum.siniestros.Siniestros> body)
+   public Respuesta(java.lang.Boolean success, cl.forum.siniestros.Body body)
    {
       this.success = success;
       this.body = body;
