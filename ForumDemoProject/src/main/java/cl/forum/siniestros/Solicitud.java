@@ -10,54 +10,14 @@ public class Solicitud implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @javax.persistence.GeneratedValue(strategy = javax.persistence.GenerationType.AUTO, generator = "SOLICITUD_ID_GENERATOR")
-   @javax.persistence.Id
-   @javax.persistence.SequenceGenerator(sequenceName = "SOLICITUD_ID_SEQ", name = "SOLICITUD_ID_GENERATOR")
-   private java.lang.Long id;
-
    @org.kie.api.definition.type.Label("Rut Cliente")
    private java.lang.String rutCliente;
 
-   @org.kie.api.definition.type.Label("Nombre Cliente")
-   private java.lang.String nombreCliente;
-
-   @javax.persistence.ElementCollection(fetch = javax.persistence.FetchType.EAGER)
-   @org.kie.api.definition.type.Label("Contratos")
-   private java.util.List<java.lang.String> contratos;
-
-   @org.kie.api.definition.type.Label("Patente")
-   private java.lang.String patente;
-
-   @org.kie.api.definition.type.Label("Estado")
-   private java.lang.String estadoPoliza;
-
-   @org.kie.api.definition.type.Label("Marca")
-   private java.lang.String marca;
-
-   @org.kie.api.definition.type.Label("Modelo")
-   private java.lang.String modelo;
-
-   @org.kie.api.definition.type.Label("Chasis")
-   private java.lang.String chasis;
-
-   @org.kie.api.definition.type.Label("Contrato")
-   private java.lang.String contrato;
-
-   @org.kie.api.definition.type.Label(value = "Aprobacion")
+   @org.kie.api.definition.type.Label("Aprobacion")
    private java.lang.Boolean aprobacion;
 
    public Solicitud()
    {
-   }
-
-   public java.lang.Long getId()
-   {
-      return this.id;
-   }
-
-   public void setId(java.lang.Long id)
-   {
-      this.id = id;
    }
 
    public java.lang.String getRutCliente()
@@ -70,86 +30,6 @@ public class Solicitud implements java.io.Serializable
       this.rutCliente = rutCliente;
    }
 
-   public java.lang.String getNombreCliente()
-   {
-      return this.nombreCliente;
-   }
-
-   public void setNombreCliente(java.lang.String nombreCliente)
-   {
-      this.nombreCliente = nombreCliente;
-   }
-
-   public java.util.List<java.lang.String> getContratos()
-   {
-      return this.contratos;
-   }
-
-   public void setContratos(java.util.List<java.lang.String> contratos)
-   {
-      this.contratos = contratos;
-   }
-
-   public java.lang.String getPatente()
-   {
-      return this.patente;
-   }
-
-   public void setPatente(java.lang.String patente)
-   {
-      this.patente = patente;
-   }
-
-   public java.lang.String getEstadoPoliza()
-   {
-      return this.estadoPoliza;
-   }
-
-   public void setEstadoPoliza(java.lang.String estadoPoliza)
-   {
-      this.estadoPoliza = estadoPoliza;
-   }
-
-   public java.lang.String getMarca()
-   {
-      return this.marca;
-   }
-
-   public void setMarca(java.lang.String marca)
-   {
-      this.marca = marca;
-   }
-
-   public java.lang.String getModelo()
-   {
-      return this.modelo;
-   }
-
-   public void setModelo(java.lang.String modelo)
-   {
-      this.modelo = modelo;
-   }
-
-   public java.lang.String getChasis()
-   {
-      return this.chasis;
-   }
-
-   public void setChasis(java.lang.String chasis)
-   {
-      this.chasis = chasis;
-   }
-
-   public java.lang.String getContrato()
-   {
-      return this.contrato;
-   }
-
-   public void setContrato(java.lang.String contrato)
-   {
-      this.contrato = contrato;
-   }
-
    public java.lang.Boolean getAprobacion()
    {
       return this.aprobacion;
@@ -160,23 +40,9 @@ public class Solicitud implements java.io.Serializable
       this.aprobacion = aprobacion;
    }
 
-   public Solicitud(java.lang.Long id, java.lang.String rutCliente,
-         java.lang.String nombreCliente,
-         java.util.List<java.lang.String> contratos, java.lang.String patente,
-         java.lang.String estadoPoliza, java.lang.String marca,
-         java.lang.String modelo, java.lang.String chasis,
-         java.lang.String contrato, java.lang.Boolean aprobacion)
+   public Solicitud(java.lang.String rutCliente, java.lang.Boolean aprobacion)
    {
-      this.id = id;
       this.rutCliente = rutCliente;
-      this.nombreCliente = nombreCliente;
-      this.contratos = contratos;
-      this.patente = patente;
-      this.estadoPoliza = estadoPoliza;
-      this.marca = marca;
-      this.modelo = modelo;
-      this.chasis = chasis;
-      this.contrato = contrato;
       this.aprobacion = aprobacion;
    }
 
