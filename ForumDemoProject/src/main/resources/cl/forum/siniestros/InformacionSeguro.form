@@ -1,7 +1,8 @@
 
 <form id="836232975">
 <property name="name" value="InformacionSeguro.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="left"/>
 <property name="status" value="0"/>
 <field position="0" name="seguro_estadoSeguro" type="InputText" id="1019840079">
 <property name="fieldRequired" value="false"/>
