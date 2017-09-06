@@ -3,4 +3,45 @@
 <property name="name" value="DatosVehiculo.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="vehiculo_anoBien" type="InputText" id="1325213213">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;anoBien (vehiculo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vehiculo/anoBien"/>
+<property name="outputBinding" value="vehiculo/anoBien"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="vehiculo_chasis" type="InputText" id="1136271832">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;chasis (vehiculo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vehiculo/chasis"/>
+<property name="outputBinding" value="vehiculo/chasis"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="vehiculo_nombreTipoMarca" type="InputText" id="951814664">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombreTipoMarca (vehiculo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vehiculo/nombreTipoMarca"/>
+<property name="outputBinding" value="vehiculo/nombreTipoMarca"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="vehiculo_nombreTipoModelo" type="InputText" id="2067911021">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombreTipoModelo (vehiculo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vehiculo/nombreTipoModelo"/>
+<property name="outputBinding" value="vehiculo/nombreTipoModelo"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="vehiculo_patente" type="InputText" id="26246873">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;patente (vehiculo)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vehiculo/patente"/>
+<property name="outputBinding" value="vehiculo/patente"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="vehiculo" name="#E9E371" type="dataModelerEntry" outId="vehiculo" value="cl.forum.siniestros.Vehiculo" id="vehiculo"/>
 </form>
