@@ -94,5 +94,69 @@
 <property name="outputBinding" value="siniestro/representanteCia"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
+<field position="8" name="seguro_compania" type="InputText" id="2007257625">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;compania (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/compania"/>
+<property name="outputBinding" value="seguro/compania"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="seguro_direccionCia" type="InputText" id="583242379">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;direccionCia (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/direccionCia"/>
+<property name="outputBinding" value="seguro/direccionCia"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="seguro_fechaIndemnizacion" type="InputDate" id="235104902">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaIndemnizacion (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/fechaIndemnizacion"/>
+<property name="outputBinding" value="seguro/fechaIndemnizacion"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="11" name="seguro_fechaOcurrencia" type="InputDate" id="16536440">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fechaOcurrencia (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/fechaOcurrencia"/>
+<property name="outputBinding" value="seguro/fechaOcurrencia"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="12" name="seguro_montoIndemnizado" type="InputTextLong" id="23067918">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;montoIndemnizado (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/montoIndemnizado"/>
+<property name="outputBinding" value="seguro/montoIndemnizado"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="13" name="seguro_numeroSiniestro" type="InputText" id="207126810">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroSiniestro (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/numeroSiniestro"/>
+<property name="outputBinding" value="seguro/numeroSiniestro"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="seguro_representanteCia" type="InputText" id="1748323023">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;representanteCia (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/representanteCia"/>
+<property name="outputBinding" value="seguro/representanteCia"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="seguro_tipoSeguro" type="InputText" id="442530862">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tipoSeguro (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/tipoSeguro"/>
+<property name="outputBinding" value="seguro/tipoSeguro"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="seguro" name="#E9E371" type="dataModelerEntry" outId="seguro" value="cl.forum.siniestros.Seguro" id="seguro"/>
 </form>
