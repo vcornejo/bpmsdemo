@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>redhat-forum</groupId>
   <artifactId>demo-siniestros</artifactId>
-  <version>1.1.30</version>
+  <version>1.1.31</version>
   <packaging>kjar</packaging>
   <name>ForumDemoProject</name>
   <description>proyecto demo</description>
