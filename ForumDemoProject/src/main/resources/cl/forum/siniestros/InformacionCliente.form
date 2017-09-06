@@ -3,4 +3,49 @@
 <property name="name" value="InformacionCliente.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="2" name="cliente_digito" type="InputText" id="443107524">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;digito (cliente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente/digito"/>
+<property name="outputBinding" value="cliente/digito"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="cliente_estadoContrato" type="InputText" id="1435021919">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;estadoContrato (cliente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente/estadoContrato"/>
+<property name="outputBinding" value="cliente/estadoContrato"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="cliente_nombre" type="InputText" id="194197864">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;nombre (cliente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente/nombre"/>
+<property name="outputBinding" value="cliente/nombre"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="cliente_numeroContrato" type="InputText" id="16047670">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroContrato (cliente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente/numeroContrato"/>
+<property name="outputBinding" value="cliente/numeroContrato"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="cliente_rut" type="InputText" id="338221999">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;rut (cliente)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cliente/rut"/>
+<property name="outputBinding" value="cliente/rut"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="cliente" name="#E9E371" type="dataModelerEntry" outId="cliente" value="cl.forum.siniestros.Cliente" id="cliente"/>
 </form>
