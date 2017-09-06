@@ -210,38 +210,32 @@
 	}ns
 </style>
 <div id="container">
-	<div id="header">
-		Formulario: Solicitud
-	</div>
-	<div id="content">
-
-	 
-		<fieldset>
-            <legend>Informacion de la solicitud</legend>
-            	  Nombre: <input type="text" value="${solicitud?rutCliente}"><br>
-    				  Rut: <input type="text" value="${rut}"><br>
-    				  Solicitud: <input type="text" value="${task.taskData.actualOwner.id}">
-            <div class="clear"></div>
+<div id="header">Formulario: Solicitud</div>
+<div id="content">
+      <fieldset>
+          <legend>Información de la Solicitud</legend>
+      	  Nombre: <input type="text" value="${f_nombreCliente}"><br>
+    	  Rut: <input type="text" value="${f_rut}"><br>
+    	  Solicitud: <input type="text" value="${f_solicitud}">
+          <div class="clear"></div>
       </fieldset>
+      <fieldset>
+        <legend>Contratos</legend>
+	<select multiple="true" size="8" onclick="javascript:alert('testSelection');">
+		<option>123213</option>
+		<option>1233333</option>  
+		<option>1234355</option>
+		<option>1233444</option>
+		<option>1277555</option>
+	</select>
+       </fieldset>
 
-	<fieldset>
-            <legend>Contratos</legend>
-  
-  <select multiple="true" size="8" onclick="javascript:alert('testSelection');">
-<option>123213</option>
-<option>1233333</option>  
-<option>1234355</option>
-<option>1233444</option>
-<option>1277555</option>
-  </select>
-  				          </fieldset>
-
-         	<fieldset>
-            <legend>Informacion del Contrato</legend>
-            	  Patente: <input type="text"><br>
-    				  Chasis: <input type="text"><br>
-    				  Contrato: <input type="text">
-            <div class="clear"></div>
+     <fieldset>
+      <legend>Informacion del Contrato</legend>
+        Patente: <input type="text">${f_patente}</value><br>
+    	Chasis: <input type="text">${f_chasis}</input><br>
+    	Contrato: <input type="text">${f_contrato}</input>
+     <div class="clear"></div>
       </fieldset>
 	</div>
 	<div id="footer">
