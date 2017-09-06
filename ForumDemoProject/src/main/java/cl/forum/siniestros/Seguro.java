@@ -9,11 +9,38 @@ public class Seguro implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "EstadoSeguto")
+   @org.kie.api.definition.type.Label("EstadoSeguto")
    private java.lang.String estadoSeguro;
 
-   @org.kie.api.definition.type.Label(value = "NumeroPoliza")
+   @org.kie.api.definition.type.Label("NumeroPoliza")
    private java.lang.String numeroPoliza;
+
+   @org.kie.api.definition.type.Label(value = "Compania")
+   private java.lang.String compania;
+
+   @org.kie.api.definition.type.Label(value = "Tipo Seguro")
+   private java.lang.String tipoSeguro;
+
+   @org.kie.api.definition.type.Label(value = "Compa\u00F1ia de seguros")
+   private java.lang.String companiaSeguro;
+
+   @org.kie.api.definition.type.Label(value = "Numero de siniestro")
+   private java.lang.String numeroSiniestro;
+
+   @org.kie.api.definition.type.Label(value = "Fecha de Ocurrencia")
+   private java.util.Date fechaOcurrencia;
+
+   @org.kie.api.definition.type.Label(value = "Monto Indemnizado")
+   private java.lang.Long montoIndemnizado;
+
+   @org.kie.api.definition.type.Label(value = "Fecha de Indemnizacion")
+   private java.util.Date fechaIndemnizacion;
+
+   @org.kie.api.definition.type.Label(value = "Representante Compa\u00F1ia")
+   private java.lang.String representanteCia;
+
+   @org.kie.api.definition.type.Label(value = "Direcci\u00F3n Compa\u00F1\u00EDa")
+   private java.lang.String direccionCia;
 
    public Seguro()
    {
@@ -39,10 +66,114 @@ public class Seguro implements java.io.Serializable
       this.numeroPoliza = numeroPoliza;
    }
 
-   public Seguro(java.lang.String estadoSeguro, java.lang.String numeroPoliza)
+   public java.lang.String getCompania()
+   {
+      return this.compania;
+   }
+
+   public void setCompania(java.lang.String compania)
+   {
+      this.compania = compania;
+   }
+
+   public java.lang.String getTipoSeguro()
+   {
+      return this.tipoSeguro;
+   }
+
+   public void setTipoSeguro(java.lang.String tipoSeguro)
+   {
+      this.tipoSeguro = tipoSeguro;
+   }
+
+   public java.lang.String getCompaniaSeguro()
+   {
+      return this.companiaSeguro;
+   }
+
+   public void setCompaniaSeguro(java.lang.String companiaSeguro)
+   {
+      this.companiaSeguro = companiaSeguro;
+   }
+
+   public java.lang.String getNumeroSiniestro()
+   {
+      return this.numeroSiniestro;
+   }
+
+   public void setNumeroSiniestro(java.lang.String numeroSiniestro)
+   {
+      this.numeroSiniestro = numeroSiniestro;
+   }
+
+   public java.util.Date getFechaOcurrencia()
+   {
+      return this.fechaOcurrencia;
+   }
+
+   public void setFechaOcurrencia(java.util.Date fechaOcurrencia)
+   {
+      this.fechaOcurrencia = fechaOcurrencia;
+   }
+
+   public java.lang.Long getMontoIndemnizado()
+   {
+      return this.montoIndemnizado;
+   }
+
+   public void setMontoIndemnizado(java.lang.Long montoIndemnizado)
+   {
+      this.montoIndemnizado = montoIndemnizado;
+   }
+
+   public java.util.Date getFechaIndemnizacion()
+   {
+      return this.fechaIndemnizacion;
+   }
+
+   public void setFechaIndemnizacion(java.util.Date fechaIndemnizacion)
+   {
+      this.fechaIndemnizacion = fechaIndemnizacion;
+   }
+
+   public java.lang.String getRepresentanteCia()
+   {
+      return this.representanteCia;
+   }
+
+   public void setRepresentanteCia(java.lang.String representanteCia)
+   {
+      this.representanteCia = representanteCia;
+   }
+
+   public java.lang.String getDireccionCia()
+   {
+      return this.direccionCia;
+   }
+
+   public void setDireccionCia(java.lang.String direccionCia)
+   {
+      this.direccionCia = direccionCia;
+   }
+
+   public Seguro(java.lang.String estadoSeguro, java.lang.String numeroPoliza,
+         java.lang.String compania, java.lang.String tipoSeguro,
+         java.lang.String companiaSeguro, java.lang.String numeroSiniestro,
+         java.util.Date fechaOcurrencia, java.lang.Long montoIndemnizado,
+         java.util.Date fechaIndemnizacion, java.lang.String representanteCia,
+         java.lang.String direccionCia)
    {
       this.estadoSeguro = estadoSeguro;
       this.numeroPoliza = numeroPoliza;
+      this.compania = compania;
+      this.tipoSeguro = tipoSeguro;
+      this.companiaSeguro = companiaSeguro;
+      this.numeroSiniestro = numeroSiniestro;
+      this.fechaOcurrencia = fechaOcurrencia;
+      this.montoIndemnizado = montoIndemnizado;
+      this.fechaIndemnizacion = fechaIndemnizacion;
+      this.representanteCia = representanteCia;
+      this.direccionCia = direccionCia;
    }
 
 }
