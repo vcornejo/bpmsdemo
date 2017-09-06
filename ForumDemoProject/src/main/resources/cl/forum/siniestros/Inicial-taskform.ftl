@@ -214,11 +214,10 @@
 <div id="content">
       <fieldset>
           <legend>Información de la Solicitud</legend>
-      	  Nombre: <input type="text" value="${f_nombreCliente}"><br>
-    	  Rut: <input type="text" value="${f_rut}"><br>
-    	  Solicitud: <input type="text" value="${f_solicitud}">
-          <div class="clear"></div>
-      </fieldset>
+      	  Nombre: <input type="text" value=""><br>
+    	  Rut: <input type="text" value=""><br>
+    	  Solicitud: <input type="text" value="">
+          <div class="clear"></div>      </fieldset>
       <fieldset>
         <legend>Contratos</legend>
 	<select multiple="true" size="8" onclick="javascript:alert('testSelection');">
@@ -232,9 +231,9 @@
 
      <fieldset>
       <legend>Informacion del Contrato</legend>
-        Patente: <input type="text">${f_patente}</value><br>
-    	Chasis: <input type="text">${f_chasis}</input><br>
-    	Contrato: <input type="text">${f_contrato}</input>
+        Patente: <input type="text"></value><br>
+    	Chasis: <input type="text"></input><br>
+    	Contrato: <input type="text"></input>
      <div class="clear"></div>
       </fieldset>
 	</div>
