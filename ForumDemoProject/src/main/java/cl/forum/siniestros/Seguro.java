@@ -15,31 +15,28 @@ public class Seguro implements java.io.Serializable
    @org.kie.api.definition.type.Label("NumeroPoliza")
    private java.lang.String numeroPoliza;
 
-   @org.kie.api.definition.type.Label(value = "Compania")
+   @org.kie.api.definition.type.Label("Compania")
    private java.lang.String compania;
 
-   @org.kie.api.definition.type.Label(value = "Tipo Seguro")
+   @org.kie.api.definition.type.Label("Tipo Seguro")
    private java.lang.String tipoSeguro;
 
-   @org.kie.api.definition.type.Label(value = "Compa\u00F1ia de seguros")
-   private java.lang.String companiaSeguro;
-
-   @org.kie.api.definition.type.Label(value = "Numero de siniestro")
+   @org.kie.api.definition.type.Label("Numero de siniestro")
    private java.lang.String numeroSiniestro;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de Ocurrencia")
+   @org.kie.api.definition.type.Label("Fecha de Ocurrencia")
    private java.util.Date fechaOcurrencia;
 
-   @org.kie.api.definition.type.Label(value = "Monto Indemnizado")
+   @org.kie.api.definition.type.Label("Monto Indemnizado")
    private java.lang.Long montoIndemnizado;
 
-   @org.kie.api.definition.type.Label(value = "Fecha de Indemnizacion")
+   @org.kie.api.definition.type.Label("Fecha de Indemnizacion")
    private java.util.Date fechaIndemnizacion;
 
-   @org.kie.api.definition.type.Label(value = "Representante Compa\u00F1ia")
+   @org.kie.api.definition.type.Label("Representante Compañia")
    private java.lang.String representanteCia;
 
-   @org.kie.api.definition.type.Label(value = "Direcci\u00F3n Compa\u00F1\u00EDa")
+   @org.kie.api.definition.type.Label("Dirección Compañía")
    private java.lang.String direccionCia;
 
    public Seguro()
@@ -84,16 +81,6 @@ public class Seguro implements java.io.Serializable
    public void setTipoSeguro(java.lang.String tipoSeguro)
    {
       this.tipoSeguro = tipoSeguro;
-   }
-
-   public java.lang.String getCompaniaSeguro()
-   {
-      return this.companiaSeguro;
-   }
-
-   public void setCompaniaSeguro(java.lang.String companiaSeguro)
-   {
-      this.companiaSeguro = companiaSeguro;
    }
 
    public java.lang.String getNumeroSiniestro()
@@ -158,16 +145,14 @@ public class Seguro implements java.io.Serializable
 
    public Seguro(java.lang.String estadoSeguro, java.lang.String numeroPoliza,
          java.lang.String compania, java.lang.String tipoSeguro,
-         java.lang.String companiaSeguro, java.lang.String numeroSiniestro,
-         java.util.Date fechaOcurrencia, java.lang.Long montoIndemnizado,
-         java.util.Date fechaIndemnizacion, java.lang.String representanteCia,
-         java.lang.String direccionCia)
+         java.lang.String numeroSiniestro, java.util.Date fechaOcurrencia,
+         java.lang.Long montoIndemnizado, java.util.Date fechaIndemnizacion,
+         java.lang.String representanteCia, java.lang.String direccionCia)
    {
       this.estadoSeguro = estadoSeguro;
       this.numeroPoliza = numeroPoliza;
       this.compania = compania;
       this.tipoSeguro = tipoSeguro;
-      this.companiaSeguro = companiaSeguro;
       this.numeroSiniestro = numeroSiniestro;
       this.fechaOcurrencia = fechaOcurrencia;
       this.montoIndemnizado = montoIndemnizado;
