@@ -3,4 +3,21 @@
 <property name="name" value="InformacionSeguro.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="seguro_estadoSeguro" type="InputText" id="1019840079">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estadoSeguro (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/estadoSeguro"/>
+<property name="outputBinding" value="seguro/estadoSeguro"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="seguro_numeroPoliza" type="InputText" id="1553108188">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;numeroPoliza (seguro)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="seguro/numeroPoliza"/>
+<property name="outputBinding" value="seguro/numeroPoliza"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="seguro" name="#E9E371" type="dataModelerEntry" outId="seguro" value="cl.forum.siniestros.Seguro" id="seguro"/>
 </form>
