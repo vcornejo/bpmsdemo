@@ -1,7 +1,8 @@
 
 <form id="1128718842">
 <property name="name" value="DatosVehiculo.form"/>
-<property name="displayMode" value="default"/>
+<property name="displayMode" value="aligned"/>
+<property name="labelMode" value="left"/>
 <property name="status" value="0"/>
 <field position="0" name="vehiculo_anoBien" type="InputText" id="1325213213">
 <property name="fieldRequired" value="false"/>
