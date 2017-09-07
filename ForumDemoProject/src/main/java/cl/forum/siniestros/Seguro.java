@@ -39,6 +39,9 @@ public class Seguro implements java.io.Serializable
    @org.kie.api.definition.type.Label("Dirección Compañía")
    private java.lang.String direccionCia;
 
+   @org.kie.api.definition.type.Label(value = "Compa\u00F1\u00EDas")
+   private java.util.List<java.lang.String> companias;
+
    public Seguro()
    {
    }
@@ -143,11 +146,22 @@ public class Seguro implements java.io.Serializable
       this.direccionCia = direccionCia;
    }
 
+   public java.util.List<java.lang.String> getCompanias()
+   {
+      return this.companias;
+   }
+
+   public void setCompanias(java.util.List<java.lang.String> companias)
+   {
+      this.companias = companias;
+   }
+
    public Seguro(java.lang.String estadoSeguro, java.lang.String numeroPoliza,
          java.lang.String compania, java.lang.String tipoSeguro,
          java.lang.String numeroSiniestro, java.util.Date fechaOcurrencia,
          java.lang.Long montoIndemnizado, java.util.Date fechaIndemnizacion,
-         java.lang.String representanteCia, java.lang.String direccionCia)
+         java.lang.String representanteCia, java.lang.String direccionCia,
+         java.util.List<java.lang.String> companias)
    {
       this.estadoSeguro = estadoSeguro;
       this.numeroPoliza = numeroPoliza;
@@ -159,6 +173,7 @@ public class Seguro implements java.io.Serializable
       this.fechaIndemnizacion = fechaIndemnizacion;
       this.representanteCia = representanteCia;
       this.direccionCia = direccionCia;
+      this.companias = companias;
    }
 
 }
