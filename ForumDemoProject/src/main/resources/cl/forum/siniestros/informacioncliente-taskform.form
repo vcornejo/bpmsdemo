@@ -4,105 +4,38 @@
 <property name="displayMode" value="aligned"/>
 <property name="labelMode" value="left"/>
 <property name="status" value="0"/>
-<field position="1" name="solicitud_nombreCliente" type="InputText" id="718991160">
+<field position="2" name="solicitud_aprobacion" type="CheckBox" id="538976730">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;aprobacion (solicitud)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="solicitud/aprobacion"/>
+<property name="outputBinding" value="solicitud/aprobacion"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="siniestro_seguro" type="Subform" id="733970833">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;nombreCliente (solicitud)quot;quot;esquot;,quot;Nombre Clientequot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;seguro (siniestro)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="solicitud/nombreCliente"/>
-<property name="outputBinding" value="solicitud/nombreCliente"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="inputBinding" value="siniestro/seguro"/>
+<property name="outputBinding" value="siniestro/seguro"/>
+<property name="defaultSubform" value="InformacionSeguro.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="3" name="solicitud_contrato" type="InputText" id="1946208216">
+<field position="0" name="siniestro_cliente" type="Subform" id="2146448034">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;contrato (solicitud)quot;quot;esquot;,quot;Contratoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;cliente (siniestro)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="solicitud/contrato"/>
-<property name="outputBinding" value="solicitud/contrato"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="inputBinding" value="siniestro/cliente"/>
+<property name="outputBinding" value="siniestro/cliente"/>
+<property name="defaultSubform" value="InformacionCliente.form"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="4" name=":decorator_0" type="Separator" id="237341563">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="fieldClass" value="Separator"/>
-</field>
-<field position="0" name="solicitud_rutCliente" type="InputText" id="2115246637">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;rutCliente (solicitud)quot;quot;esquot;,quot;Rut Clientequot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="solicitud/rutCliente"/>
-<property name="outputBinding" value="solicitud/rutCliente"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="8" name="solicitud_chasis" type="InputText" id="206616810">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;chasis (solicitud)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="solicitud/chasis"/>
-<property name="outputBinding" value="solicitud/chasis"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="solicitud_contratos" bag-type="java.lang.String" type="MultipleInput" id="12454532">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;contratos (solicitud)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="true"/>
-<property name="inputBinding" value="solicitud/contratos"/>
-<property name="outputBinding" value="solicitud/contratos"/>
-<property name="fieldClass" value="java.util.List"/>
-</field>
-<field position="9" name="solicitud_estadoPoliza" type="InputText" id="325577832">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;estadoPoliza (solicitud)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="solicitud/estadoPoliza"/>
-<property name="outputBinding" value="solicitud/estadoPoliza"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="5" name="solicitud_marca" type="InputText" id="1581000369">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;marca (solicitud)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="solicitud/marca"/>
-<property name="outputBinding" value="solicitud/marca"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="solicitud_modelo" type="InputText" id="1135008760">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="true"/>
-<property name="label" value="quot;enquot;,quot;modelo (solicitud)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="solicitud/modelo"/>
-<property name="outputBinding" value="solicitud/modelo"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="7" name="solicitud_patente" type="InputText" id="1597246007">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="label" value="quot;enquot;,quot;patente (solicitud)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="solicitud/patente"/>
-<property name="outputBinding" value="solicitud/patente"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
+<dataHolder inputId="siniestro" name="#E9E371" type="dataModelerEntry" outId="siniestro" value="cl.forum.siniestros.Siniestros" id="siniestro"/>
 <dataHolder inputId="solicitud" name="#E9E371" type="dataModelerEntry" outId="solicitud" value="cl.forum.siniestros.Solicitud" id="solicitud"/>
 </form>
