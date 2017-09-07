@@ -105,6 +105,7 @@
 <property name="rangeFormula" value="{1, MAPFRE;2, BICE Vida}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
+<property name="outputBinding" value="solicitud/compania"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="seguro" name="#E9E371" type="dataModelerEntry" outId="seguro" value="cl.forum.siniestros.Seguro" id="seguro"/>
