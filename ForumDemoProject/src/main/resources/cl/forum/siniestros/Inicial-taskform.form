@@ -62,6 +62,13 @@
 <property name="outputBinding" value="validaFiniquito"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
+<field position="6" name="1467876354" type="Document" id="1467876354">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;Document6quot;quot;esquot;,quot;Finiquitoquot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="org.jbpm.document.Document"/>
+</field>
 <dataHolder inputId="siniestro" name="#E9E371" type="dataModelerEntry" outId="siniestro" value="cl.forum.siniestros.Siniestros" id="siniestro"/>
 <dataHolder inputId="validaCI" name="#E9E371" type="basicType" outId="validaCI" value="java.lang.Boolean" id="validaCI"/>
 <dataHolder inputId="validaDoc" name="#E9E371" type="basicType" outId="validaDoc" value="java.lang.Boolean" id="validaDoc"/>
