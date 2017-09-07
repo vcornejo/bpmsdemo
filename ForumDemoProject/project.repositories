@@ -3,24 +3,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://localhost:8080/business-central/maven2/</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>fusesource-plugin</id>
-        <url>http://repo.fusesource.com/nexus/content/repositories/releases</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>Maven2</id>
-        <url>https://repo1.maven.org/maven2</url>
+        <id>jboss-public-repository</id>
+        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -29,6 +13,38 @@
       <metadata>
         <id>fusesourceEA</id>
         <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>restlet</id>
+        <url>http://maven.restlet.org</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>GA</id>
+        <url>https://maven.repository.redhat.com/ga</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>repository-apache-org</id>
+        <url>https://repository.apache.org/content/groups/public/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>Maven2</id>
+        <url>https://repo1.maven.org/maven2</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -59,6 +75,22 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>Redhatplugin</id>
+        <url>https://maven.repository.redhat.com/nexus/content/repositories/ea/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>guvnor-m2-repo</id>
+        <url>http://localhost:8080/business-central/maven2/</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>jboss-ea-plugin-repository</id>
         <url>https://maven.repository.redhat.com/earlyaccess/all</url>
         <source>SETTINGS</source>
@@ -67,16 +99,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-public-repository</id>
-        <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>GA</id>
-        <url>https://maven.repository.redhat.com/ga</url>
+        <id>redhat-techpreview-all-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -91,22 +115,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>restlet</id>
-        <url>http://maven.restlet.org</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>repository-apache-org</id>
-        <url>https://repository.apache.org/content/groups/public/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>jboss-ga-plugin-repository</id>
         <url>https://maven.repository.redhat.com/ga/</url>
         <source>SETTINGS</source>
@@ -115,16 +123,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>Redhatplugin</id>
-        <url>https://maven.repository.redhat.com/nexus/content/repositories/ea/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>redhat-techpreview-all-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all/</url>
+        <id>fusesource-plugin</id>
+        <url>http://repo.fusesource.com/nexus/content/repositories/releases</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
