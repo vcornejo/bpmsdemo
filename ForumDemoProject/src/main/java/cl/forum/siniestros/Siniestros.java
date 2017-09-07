@@ -16,24 +16,6 @@ public class Siniestros implements java.io.Serializable
    @org.kie.api.definition.type.Label("Vechiculo")
    private cl.forum.siniestros.Vehiculo vehiculo;
 
-   @org.kie.api.definition.type.Label(value = "Numero Siniestro")
-   private java.lang.String numeroSiniestro;
-
-   @org.kie.api.definition.type.Label(value = "Fecha Ocurrencia")
-   private java.util.Date fechaOcurrencia;
-
-   @org.kie.api.definition.type.Label(value = "Monto Indemnizado")
-   private java.lang.Long montoIndemnizado;
-
-   @org.kie.api.definition.type.Label(value = "Fecha Pago")
-   private java.util.Date fechaPago;
-
-   @org.kie.api.definition.type.Label(value = "Representante Cia")
-   private java.lang.String representanteCia;
-
-   @org.kie.api.definition.type.Label(value = "Direccion Cia")
-   private java.lang.String direccionCia;
-
    public Siniestros()
    {
    }
@@ -68,82 +50,13 @@ public class Siniestros implements java.io.Serializable
       this.vehiculo = vehiculo;
    }
 
-   public java.lang.String getNumeroSiniestro()
-   {
-      return this.numeroSiniestro;
-   }
-
-   public void setNumeroSiniestro(java.lang.String numeroSiniestro)
-   {
-      this.numeroSiniestro = numeroSiniestro;
-   }
-
-   public java.util.Date getFechaOcurrencia()
-   {
-      return this.fechaOcurrencia;
-   }
-
-   public void setFechaOcurrencia(java.util.Date fechaOcurrencia)
-   {
-      this.fechaOcurrencia = fechaOcurrencia;
-   }
-
-   public java.lang.Long getMontoIndemnizado()
-   {
-      return this.montoIndemnizado;
-   }
-
-   public void setMontoIndemnizado(java.lang.Long montoIndemnizado)
-   {
-      this.montoIndemnizado = montoIndemnizado;
-   }
-
-   public java.util.Date getFechaPago()
-   {
-      return this.fechaPago;
-   }
-
-   public void setFechaPago(java.util.Date fechaPago)
-   {
-      this.fechaPago = fechaPago;
-   }
-
-   public java.lang.String getRepresentanteCia()
-   {
-      return this.representanteCia;
-   }
-
-   public void setRepresentanteCia(java.lang.String representanteCia)
-   {
-      this.representanteCia = representanteCia;
-   }
-
-   public java.lang.String getDireccionCia()
-   {
-      return this.direccionCia;
-   }
-
-   public void setDireccionCia(java.lang.String direccionCia)
-   {
-      this.direccionCia = direccionCia;
-   }
-
    public Siniestros(cl.forum.siniestros.Seguro seguro,
          cl.forum.siniestros.Cliente cliente,
-         cl.forum.siniestros.Vehiculo vehiculo,
-         java.lang.String numeroSiniestro, java.util.Date fechaOcurrencia,
-         java.lang.Long montoIndemnizado, java.util.Date fechaPago,
-         java.lang.String representanteCia, java.lang.String direccionCia)
+         cl.forum.siniestros.Vehiculo vehiculo)
    {
       this.seguro = seguro;
       this.cliente = cliente;
       this.vehiculo = vehiculo;
-      this.numeroSiniestro = numeroSiniestro;
-      this.fechaOcurrencia = fechaOcurrencia;
-      this.montoIndemnizado = montoIndemnizado;
-      this.fechaPago = fechaPago;
-      this.representanteCia = representanteCia;
-      this.direccionCia = direccionCia;
    }
 
 }
