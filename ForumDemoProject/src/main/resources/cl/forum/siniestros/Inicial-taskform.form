@@ -77,7 +77,6 @@
 <property name="outputBinding" value="docFiniquito"/>
 <property name="fieldClass" value="org.jbpm.document.Document"/>
 </field>
-<dataHolder inputId="docFiniquito" name="#E9E371" type="className" outId="docFiniquito" value="org.jbpm.document.Document" id="docFiniquito"/>
 <dataHolder inputId="siniestro" name="#E9E371" type="dataModelerEntry" outId="siniestro" value="cl.forum.siniestros.Siniestros" id="siniestro"/>
 <dataHolder inputId="validaCI" name="#E9E371" type="basicType" outId="validaCI" value="java.lang.Boolean" id="validaCI"/>
 <dataHolder inputId="validaDoc" name="#E9E371" type="basicType" outId="validaDoc" value="java.lang.Boolean" id="validaDoc"/>
